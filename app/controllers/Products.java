@@ -8,7 +8,7 @@ import play.mvc.Result;
  */
 public class Products extends Controller {
     public Result list() {
-        return TODO;
+        return ok();
     }
 
     public Result newProduct() {
